@@ -20,3 +20,9 @@ void Person::orderFlowers(Florist* f, Person* p, std::vector<std::string> flower
 	f->acceptOrder(p, flowers);
 }
 
+void Person::acceptFlowers(FlowersBouquet)
+{
+
+	std::cout << "__name!!! accept the flowers " << FlowersBouquet.toString << std::endl;
+}
+
