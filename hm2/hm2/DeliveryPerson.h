@@ -7,11 +7,9 @@ using namespace std;
 class DeliveryPerson :
     public Person
 {
-private:
-	std::string name;
-	std::vector<std::string> bouquet;
 
 public:
+	DeliveryPerson(std:: string name );
 	bool is_arranged();
 	void arrange();
 };

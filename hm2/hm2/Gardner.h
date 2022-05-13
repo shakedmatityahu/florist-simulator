@@ -2,12 +2,13 @@
 #include "Person.h"
 #include "FlowersBouquet.h"
 #include <vector>
-#include "JobOwner.h"
+#include "Person.h"
 using namespace std;
-class Gardner : JobOwner
+class Gardner : public Person
 {
 public:
 	Gardner(std::string);
-	FlowersBouquet prepareBouquet(std::vector<std::string>);
+	std:: string getName();
+	FlowersBouquet prepareOrder(std::vector<std::string>);
 };
 

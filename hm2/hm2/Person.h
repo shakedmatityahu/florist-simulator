@@ -14,6 +14,6 @@ public:
 	Person(std::string);
 	virtual std::string getName();
 	void orderFlowers(Florist*, Person*, std::vector < std::string> flowers);
-	void acceptFlowers(FlowersBouquet);
+	void acceptFlowers(FlowersBouquet* fb);
 
 };

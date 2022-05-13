@@ -1,6 +1,7 @@
 #include "Person.h"
 #include "Florist.h"
 
+
 Person::Person(std::string name) : name(name) {}
 
  std::string Person::getName()
@@ -20,9 +21,14 @@ void Person::orderFlowers(Florist* f, Person* p, std::vector<std::string> flower
 	f->acceptOrder(p, flowers);
 }
 
-void Person::acceptFlowers(FlowersBouquet)
+void Person::acceptFlowers(FlowersBouquet* fb)
 {
 
+	
+	std::cout << this->name << " accept the flowers: " + fb->summary() << std::endl;
+
+
 	//std::cout << "__name!!! accept the flowers " << FlowersBouquet.toString << std::endl;
+
 }
 

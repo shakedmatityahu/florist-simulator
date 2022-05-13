@@ -2,7 +2,10 @@
 #include <string>
 #include <iostream>
 #include <vector>
+
+#include <string>
 using namespace std;
+
 class FlowersBouquet
 {
 private:
@@ -11,5 +14,6 @@ public:
 	FlowersBouquet(std::vector<std::string>);
 	bool is_arranged();
 	void arrange();
+	std::string summary();
 };
 

@@ -5,10 +5,11 @@
 #include "FlowersBouquet.h"
 using namespace std;
 
-class FlowerArranger :
-    public Person
+
+class FlowerArranger : public Person
 {
 public:
+    FlowerArranger(std:: string name);
     void arrangeFlowers(FlowersBouquet* flb);
 };
 
