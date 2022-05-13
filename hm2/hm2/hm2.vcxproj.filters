@@ -21,12 +21,18 @@
     <ClInclude Include="Florist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Growner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Person.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Florist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Growner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
