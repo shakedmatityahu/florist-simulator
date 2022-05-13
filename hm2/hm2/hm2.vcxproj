@@ -141,12 +141,16 @@
   <ItemGroup>
     <ClInclude Include="Florist.h" />
     <ClInclude Include="Growner.h" />
+    <ClInclude Include="Main.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Wholesaler.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Florist.cpp" />
     <ClCompile Include="Growner.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Wholesaler.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
