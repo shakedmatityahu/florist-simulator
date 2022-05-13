@@ -1,8 +1,8 @@
 #pragma once
-#include "Person.h"
 #include "Wholesaler.h"
+#include "Person.h"
 
-class Florist : public  Person
+class Florist : public Person
 {
 private:
 	Wholesaler* wholesaler;
@@ -10,6 +10,7 @@ private:
 	//DeliveryPerson*  deliveryPerson;
 
 public:
+	std ::string getName();
 	Florist(std::string name, Wholesaler* wholesaler);
 	void acceptOrder(Person* p, std::vector<std::string>);
 
