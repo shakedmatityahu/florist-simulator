@@ -1,4 +1,4 @@
-#include "Main.h"
+#include "main.h"
 #include <iostream>
 #include "Person.h"
 #include "Wholesaler.h"
