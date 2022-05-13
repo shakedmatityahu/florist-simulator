@@ -21,7 +21,7 @@
     <ClInclude Include="Florist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Growner.h">
+    <ClInclude Include="Grower.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Main.h">
@@ -38,7 +38,7 @@
     <ClCompile Include="Florist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Growner.cpp">
+    <ClCompile Include="Grower.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
