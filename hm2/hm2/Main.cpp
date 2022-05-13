@@ -9,7 +9,8 @@ int main(int argc, char** argv) {
 	std::cout << "Hello World" << std::endl;
 	Person* chris = new Person("Chris");
 	Person* robin = new Person("Robin");
-	Grower* gray = new Grower("Gray");
+	Gardner* garett = new Gardner("Garett");
+	Grower* gray = new Grower("Gray", garett);
 	Wholesaler* watson = new Wholesaler("Watson", gray);
 	Florist* fred = new Florist("Fred", watson);
 	std::vector <std::string > flowers = { "Roses", "Violets" };
