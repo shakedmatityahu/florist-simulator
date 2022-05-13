@@ -11,5 +11,6 @@ public:
 	FlowersBouquet(std::vector<std::string>);
 	bool is_arranged();
 	void arrange();
+	std::string summary();
 };
 

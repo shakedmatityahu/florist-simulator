@@ -1,14 +1,15 @@
 #pragma once
-#include "Person.h"
 #include <string>
 #include <iostream>
+#include "JobOwner.h"
 #include "FlowersBouquet.h"
 using namespace std;
 
 class FlowerArranger :
-    public Person
+    public JobOwner
 {
 public:
-    void arrangeFlowers(FlowersBouquet* flb);
+    FlowerArranger(std::string);
+    void arrangeFlowers(FlowersBouquet*);
 };
 

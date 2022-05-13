@@ -1,22 +1,25 @@
 #pragma once
 #include "Person.h"
-#include "Florist.h"
-#include "Wholesaler.h"
-#include "DeliveryPerson.h"
-#include "FlowerArranger.h"
-#include "Gardner.h"
-#include "Grower.h"
+class Florist;
+class Wholesaler;
+class DeliveryPerson;
+class FlowerArranger;
+class Gardner;
+class Grower;
 
 using namespace std;
-class JobOwner :  Person
+class JobOwner : public Person
 {
 public:
-	std::string getName(Florist* f);
-	std::string getName(Wholesaler* w);
-	std::string getName(DeliveryPerson* d);
-	std::string getName(FlowerArranger* fa);
-	std::string getName(Gardner* garden);
-	std::string getName(Grower* grow);
+	JobOwner(string);
+	virtual std::string getName();
+	virtual std::string getName(Person* p); //not really necessary but easier
+	virtual std::string getName(Florist* f);
+	virtual std::string getName(Wholesaler* w);
+	virtual std::string getName(DeliveryPerson* d);
+	virtual std::string getName(FlowerArranger* fa);
+	virtual std::string getName(Gardner* garden);
+	virtual std::string getName(Grower* grow);
 
 };
 

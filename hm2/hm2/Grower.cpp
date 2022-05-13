@@ -1,19 +1,16 @@
 #include "Grower.h"
 
-std::string Grower::getName()
+Grower::Grower(std::string name, Gardner* gardner): JobOwner(name)
 {
-	return "Grower " + Person::getName();
-}
-
-Grower::Grower(std::string name, Gardner* gardner): Person(name),gardner(gardner)
-{	
+	this->gardner = gardner;
 }
 
 FlowersBouquet Grower::prepareOrder(std::vector<std::string> vec)
 {
-	std::cout << this->getName() << "prepares flowers" << std::endl;
+	std::cout << this->getName(this) << " forwards the request to  " << this->getName(this->gardner) << std::endl;
 	FlowersBouquet flb = FlowersBouquet(vec);
-
+	this->gardner->prepareOrder(vec);
+	std::cout << this->getName(this->gardner) << " returns flowers to " << this->getName(this) << std::endl;
 	return flb;
 	
 }

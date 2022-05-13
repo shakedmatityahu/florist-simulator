@@ -1,13 +1,12 @@
 #pragma once
-#include "Person.h"
 #include "FlowersBouquet.h"
 #include <vector>
 #include "JobOwner.h"
 using namespace std;
-class Gardner : JobOwner
+class Gardner : public JobOwner
 {
 public:
 	Gardner(std::string);
-	FlowersBouquet prepareBouquet(std::vector<std::string>);
+	FlowersBouquet prepareOrder(std::vector<std::string>);
 };
 

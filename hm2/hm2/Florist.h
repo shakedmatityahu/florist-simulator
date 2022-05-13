@@ -1,18 +1,18 @@
 #pragma once
 #include "Wholesaler.h"
-#include "Person.h"
+#include "JobOwner.h"
 using namespace std;
 
-class Florist : public Person
+class Florist : public JobOwner
 {
 private:
 	Wholesaler* wholesaler;
-	//Arranger*  arranger;
-	//DeliveryPerson*  deliveryPerson;
+	FlowerArranger* arranger;
+	DeliveryPerson* deliveryPerson;
 
 public:
-	std ::string getName();
-	Florist(std::string name, Wholesaler* wholesaler);
+	Florist(std::string name, Wholesaler* wholesaler, FlowerArranger* arranger, DeliveryPerson* deliveryPerson);
 	void acceptOrder(Person* p, std::vector<std::string>);
+
 
 };

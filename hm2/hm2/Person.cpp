@@ -3,7 +3,7 @@
 
 Person::Person(std::string name) : name(name) {}
 
- std::string Person::getName()
+std::string Person::getName()
 {
 	return this->name;
 }
@@ -11,18 +11,18 @@ Person::Person(std::string name) : name(name) {}
 void Person::orderFlowers(Florist* f, Person* p, std::vector<std::string> flowers)
 {
 	std::string concateate = {};
-	concateate +=  flowers[0];
+	concateate += flowers[0];
 	for (int i = 1; i < flowers.size();i++)
 	{
-		concateate +=", " +flowers[i];
+		concateate += ", " + flowers[i];
 	}
-	std::cout << this->name << " orders flowers to " << p->getName() << " from  " << f->getName() << ": " << concateate << std::endl;
+	std::cout << this->getName() << " orders flowers to " << p->getName() << " from  " << f->getName(f) << ": " << concateate << std::endl;
 	f->acceptOrder(p, flowers);
 }
 
-void Person::acceptFlowers(FlowersBouquet)
+void Person::acceptFlowers(FlowersBouquet* fb)
 {
-
-	//std::cout << "__name!!! accept the flowers " << FlowersBouquet.toString << std::endl;
+	std::cout << this->getName() << " accept the flowers: " + fb->summary() << std::endl;
 }
+
 
