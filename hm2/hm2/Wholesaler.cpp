@@ -4,6 +4,11 @@
 //    : Person(name) {}
 
 
+std::string Wholesaler::getName()
+{
+    return "Wholesaler" + Person::getName();
+}
+
 Wholesaler::Wholesaler(std::string name, Grower* grower): Person(name)
 {
     this->grower = grower;

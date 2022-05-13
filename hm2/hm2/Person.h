@@ -2,8 +2,9 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include "Florist.h"
 
-class Florist;
+//class Florist;
 
 class Person
 {
@@ -12,7 +13,7 @@ protected:
 public:
 	Person(std::string);
 
-	std::string getName();
+	virtual std::string getName();
 	void orderFlowers(Florist* f, Person* p, std::vector < std::string> flowers);
 
 	

@@ -10,6 +10,7 @@ private:
 	//DeliveryPerson*  deliveryPerson;
 
 public:
+	std ::string getName();
 	Florist(std::string name, Wholesaler* wholesaler);
 	void acceptOrder(Person* p, std::vector<std::string>);
 

@@ -4,9 +4,10 @@
 class Grower : public Person
 {
 private:
-	Gardner* gardner;
+	//Gardner* gardner;
 public:
-	Grower(std::string, Gardner* gardner);
+	//Grower(std::string, Gardner* gardner);
+	Grower(std::string);
 	int prepareOrder(std::vector <std::string>);
 	
 
