@@ -1,10 +1,11 @@
 #pragma once
 #include "Person.h"
-class Gardner
+#include "FlowersBouquet.h"
+#include <vector>
+class Gardner : Person
 {
-private:
-
-	
-
+public:
+	Gardner(std::string);
+	FlowersBouquet prepareBouquet(std::vector<std::string>);
 };
 

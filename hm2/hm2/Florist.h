@@ -1,8 +1,8 @@
 #pragma once
-#include "Person.h"
 #include "Wholesaler.h"
+#include "Person.h"
 
-class Florist : public  Person
+class Florist : public Person
 {
 private:
 	Wholesaler* wholesaler;

@@ -10,7 +10,7 @@ Person::Person(std::string name) : name(name) {}
 void Person::orderFlowers(Florist* f, Person* p, std::vector<std::string> flowers)
 {
 	std::string concateate = {};
-	for (int i = 0; i <= flowers.size();i++)
+	for (int i = 0; i < flowers.size();i++)
 	{
 		concateate += flowers[i];
 	}
