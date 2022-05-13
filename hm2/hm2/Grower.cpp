@@ -1,16 +1,15 @@
 #include "Grower.h"
 
+Grower::Grower(std::string name, Gardner* gardner): Person(name),gardner(gardner)
+{	
+}
 
-
-
-//Grower::Grower(std::string, Gardner* gardner) : Person(name), Gardner(gardner)
-//{
-//}
-
-Grower::Grower(std::string): Person(name){}
-
-int Grower::prepareOrder(std::vector<std::string>)
+FlowersBouquet Grower::prepareOrder(std::vector<std::string> vec)
 {
-	return 0;
+	std::cout << this->getName() << "prepares flowers" << std::endl;
+	FlowersBouquet* flb = new FlowersBouquet(vec);
+
+	return flb;
+	
 }
 
