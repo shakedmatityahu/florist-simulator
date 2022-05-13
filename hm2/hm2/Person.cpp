@@ -1,7 +1,6 @@
 #include "Person.h"
 
-Person::Person(std::string name) : name(name) 
-{}
+Person::Person(std::string name) : name(name) {}
 
 std::string Person::getName()
 {
@@ -15,7 +14,7 @@ void Person::orderFlowers(Florist* f, Person* p, std::vector<std::string> flower
 	{
 		concateate += flowers[i];
 	}
-	std::cout << this->name << " orders flowers to " << p->getName() << " from  " << f.getName() << concateate;
-	f.acceptOrder(p, flowers);
+	std::cout << this->name << " orders flowers to " << p->getName() << " from  " << f->getName() << concateate;
+	f->acceptOrder(p, flowers);
 }
 

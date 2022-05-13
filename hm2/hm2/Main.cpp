@@ -4,11 +4,13 @@
 #include "Wholesaler.h"
 #include "Florist.h"
 
-int Main(int argc, char** argv) {
+int main(int argc, char** argv) {
 	std::cout << "Hello World" << std::endl;
 	Person* chris = new Person("Chris");
 	Person* robin = new Person("Robin");
-	Wholesaler* watson = new Wholesaler("Watson");
+	Grower* gray = new Grower("Gray");
+	Wholesaler* watson = new Wholesaler("Watson", gray);
 	Florist* fred = new Florist("Fred", watson);
+
 
 }

@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Florist.h" />
+    <ClInclude Include="Gardner.h" />
     <ClInclude Include="Grower.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="Person.h" />
@@ -147,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Florist.cpp" />
+    <ClCompile Include="Gardner.cpp" />
     <ClCompile Include="Grower.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Person.cpp" />

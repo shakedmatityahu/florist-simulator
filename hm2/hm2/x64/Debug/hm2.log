@@ -1,10 +1,15 @@
 ﻿  Florist.cpp
+  Gardner.cpp
   Grower.cpp
   Main.cpp
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Main.cpp(11,35): error C2664: 'Grower::Grower(const Grower &)': cannot convert argument 1 from 'const char [5]' to 'const Grower &'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Main.cpp(11,35): message : Reason: cannot convert from 'const char [5]' to 'const Grower'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Main.cpp(11,35): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Grower.h(13,1): message : see declaration of 'Grower::Grower'
   Person.cpp
-C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.cpp(18,85): error C2228: left of '.getName' must have class/struct/union
-C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.cpp(18,85): message : type is 'Florist *'
-C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.cpp(18,85): message : did you intend to use '->' instead?
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.cpp(17,84): error C2027: use of undefined type 'Florist'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.h(6): message : see declaration of 'Florist'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.cpp(18,3): error C2027: use of undefined type 'Florist'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.h(6): message : see declaration of 'Florist'
   Wholesaler.cpp
   Generating Code...
-C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Main.cpp(14): error C4716: 'Main': must return a value
