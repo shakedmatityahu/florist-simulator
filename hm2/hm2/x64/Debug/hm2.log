@@ -1,0 +1,10 @@
+﻿  Florist.cpp
+  Grower.cpp
+  Main.cpp
+  Person.cpp
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.cpp(18,85): error C2228: left of '.getName' must have class/struct/union
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.cpp(18,85): message : type is 'Florist *'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.cpp(18,85): message : did you intend to use '->' instead?
+  Wholesaler.cpp
+  Generating Code...
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Main.cpp(14): error C4716: 'Main': must return a value

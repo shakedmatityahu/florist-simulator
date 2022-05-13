@@ -6,6 +6,8 @@ class Wholesaler : public Person
 	private:
 		Grower*   grower;
 	public:
+		Wholesaler(std::string);
 		int acceptOrder(std:: vector <std :: string>);
+
 };
 
