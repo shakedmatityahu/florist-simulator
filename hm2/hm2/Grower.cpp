@@ -1,5 +1,10 @@
 #include "Grower.h"
 
+std::string Grower::getName()
+{
+	return "Grower " + Person::getName();
+}
+
 Grower::Grower(std::string name, Gardner* gardner): Person(name),gardner(gardner)
 {	
 }

@@ -7,6 +7,7 @@ class Grower : public Person
 private:
 	Gardner* gardner;
 public:
+	std :: string getName();
 	Grower(std::string, Gardner* gardner);
 	FlowersBouquet prepareOrder(std::vector <std::string>);
 	

@@ -10,6 +10,6 @@ std::string Florist:: getName() {
 }
 void Florist::acceptOrder(Person* p, std::vector<std::string> flowers)
 {
-	std::cout << this->getName() << " fowards request to " << wholesaler->getName() << ".";
+	std::cout << this->getName() << " fowards request to " << wholesaler->getName() << "." << std:: endl;
 	wholesaler->acceptOrder(flowers);
 }
