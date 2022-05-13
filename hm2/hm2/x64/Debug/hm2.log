@@ -1,7 +1,76 @@
 ﻿  Florist.cpp
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15,22): error C2061: syntax error: identifier 'Wholesaler'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(18,22): error C2061: syntax error: identifier 'Gardner'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(18,38): error C2535: 'std::string JobOwner::getName(void)': member function already defined or declared
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15): message : see declaration of 'JobOwner::getName'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(19,22): error C2061: syntax error: identifier 'Grower'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(19,35): error C2535: 'std::string JobOwner::getName(void)': member function already defined or declared
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15): message : see declaration of 'JobOwner::getName'
+  Gardner.cpp
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Grower.h(9,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Grower.h(9,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Grower.h(9,18): error C2238: unexpected token(s) preceding ';'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Grower.h(12,22): error C2061: syntax error: identifier 'Gardner'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Wholesaler.h(5,1): error C2504: 'JobOwner': base class undefined
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(18,22): error C2061: syntax error: identifier 'Gardner'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Gardner.cpp(4): error C2280: 'JobOwner::JobOwner(void)': attempting to reference a deleted function
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(21): message : compiler has generated 'JobOwner::JobOwner' here
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(21,1): message : 'JobOwner::JobOwner(void)': function was implicitly deleted because a base class 'Person' has either no appropriate default constructor or overload resolution was ambiguous
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.h(9): message : see declaration of 'Person'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Gardner.cpp(3,37): error C2614: 'Gardner': illegal member initialization: 'Person' is not a base or member
   Grower.cpp
-  Person.cpp
-  Wholesaler.cpp
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Wholesaler.h(5,1): error C2504: 'JobOwner': base class undefined
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Wholesaler.h(7,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Wholesaler.h(7,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Wholesaler.h(7,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Wholesaler.h(10,32): error C2061: syntax error: identifier 'Grower'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(18,22): error C2061: syntax error: identifier 'Gardner'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(19,22): error C2061: syntax error: identifier 'Grower'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(19,35): error C2535: 'std::string JobOwner::getName(void)': member function already defined or declared
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(18): message : see declaration of 'JobOwner::getName'
+  JobOwner.cpp
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Gardner.h(8,1): error C2504: 'JobOwner': base class undefined
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Wholesaler.h(5,1): error C2504: 'JobOwner': base class undefined
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.cpp(10,31): error C2039: 'getName': is not a member of 'Wholesaler'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Wholesaler.h(4): message : see declaration of 'Wholesaler'
   main.cpp
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Florist.h(9,12): error C2143: syntax error: missing ';' before '*'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Florist.h(9,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Florist.h(9,24): error C2238: unexpected token(s) preceding ';'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Florist.h(15,28): error C2061: syntax error: identifier 'Wholesaler'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15,22): error C2061: syntax error: identifier 'Wholesaler'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(18,22): error C2061: syntax error: identifier 'Gardner'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(18,38): error C2535: 'std::string JobOwner::getName(void)': member function already defined or declared
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15): message : see declaration of 'JobOwner::getName'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(19,22): error C2061: syntax error: identifier 'Grower'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(19,35): error C2535: 'std::string JobOwner::getName(void)': member function already defined or declared
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15): message : see declaration of 'JobOwner::getName'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\main.cpp(15,45): error C2661: 'Florist::Florist': no overloaded function takes 2 arguments
+  Person.cpp
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15,22): error C2061: syntax error: identifier 'Wholesaler'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(18,22): error C2061: syntax error: identifier 'Gardner'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(18,38): error C2535: 'std::string JobOwner::getName(void)': member function already defined or declared
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15): message : see declaration of 'JobOwner::getName'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(19,22): error C2061: syntax error: identifier 'Grower'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(19,35): error C2535: 'std::string JobOwner::getName(void)': member function already defined or declared
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15): message : see declaration of 'JobOwner::getName'
+  Wholesaler.cpp
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Florist.h(9,12): error C2143: syntax error: missing ';' before '*'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Florist.h(9,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Florist.h(9,24): error C2238: unexpected token(s) preceding ';'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Florist.h(15,28): error C2061: syntax error: identifier 'Wholesaler'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15,22): error C2061: syntax error: identifier 'Wholesaler'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(18,22): error C2061: syntax error: identifier 'Gardner'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(18,38): error C2535: 'std::string JobOwner::getName(void)': member function already defined or declared
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15): message : see declaration of 'JobOwner::getName'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(19,22): error C2061: syntax error: identifier 'Grower'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(19,35): error C2535: 'std::string JobOwner::getName(void)': member function already defined or declared
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(15): message : see declaration of 'JobOwner::getName'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Wholesaler.cpp(10): error C2280: 'JobOwner::JobOwner(void)': attempting to reference a deleted function
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(21): message : compiler has generated 'JobOwner::JobOwner' here
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(21,1): message : 'JobOwner::JobOwner(void)': function was implicitly deleted because a base class 'Person' has either no appropriate default constructor or overload resolution was ambiguous
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Person.h(9): message : see declaration of 'Person'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Wholesaler.cpp(17,36): error C2664: 'std::string JobOwner::getName(Florist *)': cannot convert argument 1 from 'Wholesaler *' to 'Florist *'
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\Wholesaler.cpp(17,32): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\hm2\JobOwner.h(14,14): message : see declaration of 'JobOwner::getName'
   Generating Code...
-  hm2.vcxproj -> C:\Users\user\Documents\מונחה עצמים\Assigmnet 2\hm2\x64\Debug\hm2.exe

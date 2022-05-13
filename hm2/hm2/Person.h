@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include "FlowersBouquet.h"
+using namespace std;
 class Florist;
 
 class Person

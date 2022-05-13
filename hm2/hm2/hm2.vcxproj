@@ -145,6 +145,7 @@
     <ClInclude Include="FlowersBouquet.h" />
     <ClInclude Include="Gardner.h" />
     <ClInclude Include="Grower.h" />
+    <ClInclude Include="JobOwner.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Wholesaler.h" />
@@ -156,6 +157,7 @@
     <ClCompile Include="FlowersBouquet.cpp" />
     <ClCompile Include="Gardner.cpp" />
     <ClCompile Include="Grower.cpp" />
+    <ClCompile Include="JobOwner.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Wholesaler.cpp" />

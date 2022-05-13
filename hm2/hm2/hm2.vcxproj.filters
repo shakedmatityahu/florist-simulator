@@ -42,6 +42,9 @@
     <ClInclude Include="DeliveryPerson.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="JobOwner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Person.cpp">
@@ -69,6 +72,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DeliveryPerson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JobOwner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

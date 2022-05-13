@@ -1,6 +1,7 @@
 #pragma once
 #include "Wholesaler.h"
 #include "Person.h"
+using namespace std;
 
 class Florist : public Person
 {

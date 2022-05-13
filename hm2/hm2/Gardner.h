@@ -2,7 +2,9 @@
 #include "Person.h"
 #include "FlowersBouquet.h"
 #include <vector>
-class Gardner : Person
+#include "JobOwner.h"
+using namespace std;
+class Gardner : JobOwner
 {
 public:
 	Gardner(std::string);
