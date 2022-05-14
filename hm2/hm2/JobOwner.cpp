@@ -4,7 +4,7 @@
 #include "Florist.h"
 #include "FlowerArranger.h"
 
-JobOwner::JobOwner(string name): Person(name)
+JobOwner::JobOwner(string name) : Person(name)
 {
 }
 

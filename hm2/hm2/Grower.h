@@ -10,7 +10,7 @@ private:
 public:
 	Grower(std::string, Gardner* gardner);
 	FlowersBouquet* prepareOrder(std::vector <std::string>);
-	
+
 
 
 };

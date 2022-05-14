@@ -15,22 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Person.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Florist.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Grower.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Wholesaler.h">
+    <ClInclude Include="DeliveryPerson.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Gardner.h">
+    <ClInclude Include="Florist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FlowerArranger.h">
@@ -39,30 +30,30 @@
     <ClInclude Include="FlowersBouquet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DeliveryPerson.h">
+    <ClInclude Include="Gardner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Grower.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="JobOwner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wholesaler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Person.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Florist.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Grower.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Wholesaler.cpp">
+    <ClCompile Include="DeliveryPerson.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Gardner.cpp">
+    <ClCompile Include="Florist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FlowerArranger.cpp">
@@ -71,15 +62,20 @@
     <ClCompile Include="FlowersBouquet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DeliveryPerson.cpp">
+    <ClCompile Include="Gardner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Grower.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="JobOwner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-    <None Include="ClassDiagram1.cd" />
+    <ClCompile Include="Person.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wholesaler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

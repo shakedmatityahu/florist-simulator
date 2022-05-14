@@ -1,6 +1,6 @@
 #include "Gardner.h"
 
-Gardner::Gardner(std::string name): JobOwner(name)
+Gardner::Gardner(std::string name) : JobOwner(name)
 {
 }
 

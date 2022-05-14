@@ -3,9 +3,9 @@ using namespace std;
 
 FlowersBouquet::FlowersBouquet(vector<string> vec)
 {
-	
-	this->is_arranged =false;
-	for(int i = 0; i < vec.size();i++)
+
+	this->is_arranged = false;
+	for (int i = 0; i < vec.size();i++)
 	{
 		this->Bouquet.push_back(vec[i]);
 	}

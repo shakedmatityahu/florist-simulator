@@ -5,11 +5,11 @@
 #include <vector>
 using namespace std;
 class DeliveryPerson :
-    public JobOwner
+	public JobOwner
 {
 public:
 	DeliveryPerson(std::string name);
 	void deliver(Person*, FlowersBouquet*);
-	
+
 };
 

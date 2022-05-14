@@ -18,10 +18,34 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeliveryPerson.h" />
+    <ClInclude Include="Florist.h" />
+    <ClInclude Include="FlowerArranger.h" />
+    <ClInclude Include="FlowersBouquet.h" />
+    <ClInclude Include="Gardner.h" />
+    <ClInclude Include="Grower.h" />
+    <ClInclude Include="JobOwner.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Wholesaler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeliveryPerson.cpp" />
+    <ClCompile Include="Florist.cpp" />
+    <ClCompile Include="FlowerArranger.cpp" />
+    <ClCompile Include="FlowersBouquet.cpp" />
+    <ClCompile Include="Gardner.cpp" />
+    <ClCompile Include="Grower.cpp" />
+    <ClCompile Include="JobOwner.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Wholesaler.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7f96918a-9aa0-4d8d-be37-6d8714f0d6aa}</ProjectGuid>
+    <ProjectGuid>{db555365-50f3-45c6-9230-4f87dc945a89}</ProjectGuid>
     <RootNamespace>hm2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -138,34 +162,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="DeliveryPerson.h" />
-    <ClInclude Include="Florist.h" />
-    <ClInclude Include="FlowerArranger.h" />
-    <ClInclude Include="FlowersBouquet.h" />
-    <ClInclude Include="Gardner.h" />
-    <ClInclude Include="Grower.h" />
-    <ClInclude Include="JobOwner.h" />
-    <ClInclude Include="main.h" />
-    <ClInclude Include="Person.h" />
-    <ClInclude Include="Wholesaler.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="DeliveryPerson.cpp" />
-    <ClCompile Include="Florist.cpp" />
-    <ClCompile Include="FlowerArranger.cpp" />
-    <ClCompile Include="FlowersBouquet.cpp" />
-    <ClCompile Include="Gardner.cpp" />
-    <ClCompile Include="Grower.cpp" />
-    <ClCompile Include="JobOwner.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Person.cpp" />
-    <ClCompile Include="Wholesaler.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-    <None Include="ClassDiagram1.cd" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
