@@ -16,13 +16,15 @@ void Person::orderFlowers(Florist* f, Person* p, std::vector<std::string> flower
 	{
 		concateate += ", " + flowers[i];
 	}
-	std::cout << this->getName() << " orders flowers to " << p->getName() << " from  " << f->getName(f) << ": " << concateate << std::endl;
+	std::cout << this->getName() << " orders flowers to " << p->getName() << " from " << f->getName(f) << ": " << concateate << "." << std::endl;
 	f->acceptOrder(p, flowers);
 }
 
 void Person::acceptFlowers(FlowersBouquet* fb)
 {
+
 	std::cout << this->getName() << " accept the flowers: " + fb->summary() << std::endl;
+	delete fb;
 }
 
 

@@ -1,7 +1,6 @@
 #include "main.h"
 
 int main(int argc, char** argv) {
-	std::cout << "Hello World" << std::endl;
 	Person* chris = new Person("Chris");
 	Person* robin = new Person("Robin");
 	Gardner* garett = new Gardner("Garett");
@@ -10,11 +9,18 @@ int main(int argc, char** argv) {
 	FlowerArranger* flora = new FlowerArranger("Flora");
 	DeliveryPerson* dylan = new DeliveryPerson("Dylan");
 	Florist* fred = new Florist("Fred", watson, flora, dylan);
-	std::vector <std::string > flowers = { "Roses", "Violets" };
+	std::vector <std::string > flowers = { "Roses", "Violets", "Gladiolus"};
 	chris->orderFlowers(fred, robin, flowers);
 	FlowersBouquet* bouquet = new FlowersBouquet(flowers);
 
-	robin->acceptFlowers(bouquet);
-	std::cout << "Goodbye World" << std::endl;
+
+	delete chris;
+	delete robin;
+	delete garett;
+	delete gray;
+	delete watson;
+	delete flora;
+	delete dylan;
+	delete fred;
 
 }

@@ -5,9 +5,8 @@ FlowerArranger::FlowerArranger(std::string name): JobOwner(name)
 {
 }
 
-void arrangeFlowers(FlowersBouquet* flb)
+void FlowerArranger::arrangeFlowers(FlowersBouquet* flb)
 {
+	std::cout << this->getName(this) <<" arranges flowers." << std::endl;
 	flb->arrange();
-	
-
 }
