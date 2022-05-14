@@ -4,7 +4,7 @@
 
 void arrangeFlowers(FlowersBouquet* flb)
 {
-	std::cout << "please leave" << ".";
+	flb->arrange();
 }
 
 FlowerArranger::FlowerArranger(std::string name): JobOwner(name)

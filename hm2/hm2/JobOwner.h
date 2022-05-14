@@ -13,7 +13,6 @@ class JobOwner : public Person
 public:
 	JobOwner(string);
 	virtual std::string getName();
-	virtual std::string getName(Person* p); //not really necessary but easier
 	virtual std::string getName(Florist* f);
 	virtual std::string getName(Wholesaler* w);
 	virtual std::string getName(DeliveryPerson* d);

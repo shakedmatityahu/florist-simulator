@@ -13,11 +13,6 @@ std::string JobOwner::getName()
     return Person::getName();
 }
 
-std::string JobOwner::getName(Person* p)
-{
-    return p->getName();
-}
-
 std::string JobOwner::getName(Florist* f)
 {
     return "Florist " + f->getName();
