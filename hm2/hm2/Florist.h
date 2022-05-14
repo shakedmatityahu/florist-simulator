@@ -1,6 +1,8 @@
 #pragma once
 #include "Wholesaler.h"
+#include "FlowerArranger.h"
 #include "JobOwner.h"
+#include "DeliveryPerson.h"
 using namespace std;
 
 class Florist : public JobOwner

@@ -7,6 +7,6 @@ class Gardner : public JobOwner
 {
 public:
 	Gardner(std::string);
-	FlowersBouquet prepareOrder(std::vector<std::string>);
+	FlowersBouquet* prepareOrder(std::vector<std::string>);
 };
 

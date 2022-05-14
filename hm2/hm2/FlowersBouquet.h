@@ -13,5 +13,6 @@ public:
 	FlowersBouquet(std::vector<std::string>);
 	void arrange();
 	std::string summary();
+	bool isArr();
 };
 

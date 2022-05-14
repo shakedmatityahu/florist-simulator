@@ -4,12 +4,11 @@ DeliveryPerson::DeliveryPerson(std::string name): JobOwner(name)
 {
 }
 
-bool DeliveryPerson::is_arranged()
-{
-	return false;
+void DeliveryPerson::deliver(Person* p, FlowersBouquet* fb)
+{    
+    std::cout << this->getName(this) << " delivers flowers " << p->getName() << std::endl;
+    p->acceptFlowers(fb);
 }
 
-void DeliveryPerson::arrange()
-{
 
-}
+

@@ -3,6 +3,7 @@ using namespace std;
 
 FlowersBouquet::FlowersBouquet(vector<string> vec)
 {
+	
 	this->is_arranged =false;
 	for(int i = 0; i < vec.size();i++)
 	{
@@ -25,4 +26,9 @@ string FlowersBouquet::summary()
 		flowers += ", " + this->Bouquet[i];
 	}
 	return flowers;
+}
+
+bool FlowersBouquet::isArr()
+{
+	return this->is_arranged;
 }
